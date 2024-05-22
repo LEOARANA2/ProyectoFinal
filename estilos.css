@@ -1,0 +1,44 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  
+  .section {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #F3F5F9;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #C8EF52;
+    color: #202427;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #A9D13B;
+  }
+  
